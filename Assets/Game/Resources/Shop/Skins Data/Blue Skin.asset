@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79410c429ad86314fab0fcaaf2348443, type: 3}
+  m_Name: Blue Skin
+  m_EditorClassIdentifier: 
+  m_name: Blue
+  m_icon: {fileID: 21300000, guid: fedcfee229d950347ab7337f6a7c8cc6, type: 3}
+  m_cost: 15
+  m_skinType: 2
+  m_model: {fileID: -715112295866131985, guid: 47a64b9b7108cba43b7a4380e6e4880e, type: 3}

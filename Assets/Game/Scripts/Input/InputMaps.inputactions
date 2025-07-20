@@ -1,0 +1,84 @@
+{
+    "name": "InputMaps",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "ee305091-7784-4b5a-bf60-172c82719f44",
+            "actions": [
+                {
+                    "name": "Side",
+                    "type": "Value",
+                    "id": "0d0beeb6-4a95-4e76-820f-2f7aad836142",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "b0c16423-1ba3-4f3b-8a00-b329a288546e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Side",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "1f41d5fa-be51-4677-8ba0-e64903c4d69d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Side",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "c0b64eb3-141b-438a-a5fc-a6b78776d087",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Side",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "State",
+            "id": "271e5fde-f03b-46a9-ad6a-f6bb520a4538",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "2a2c7c59-c3f2-49eb-9ede-4b5b672644fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8c9d95c9-6a3b-41b6-aab6-0833bcbe50bc",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
